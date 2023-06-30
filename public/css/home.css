@@ -1,29 +1,31 @@
 /* HEADER */
-.home__header{
+.home-header{
     text-align: center;
+    width: 90%;
+    margin: auto;
 }
-.home__header__img--logo{
+.home-header-padre-img{
     margin: 15px auto 30px;
     width: 180px;
 }
-.home__header__img--logo img{
+.home-header-padre-img img{
     border: solid 2px var(--colorGris);
     border-radius: 50%;
     width: 100%;
 }
-.home__header__a--bars{
+.home-header-a{
     background-color: var(--colorGris);
     width: 50px;
     height: 50px;
     margin: 0 auto 30px;
     display: inline-block;
-    font-size: 2.5rem;
+    font-size: 2.1rem;
     border-radius: 5px;
 }
-.home__header__a--bars i{
+.home-header-a i{
     font-size: 25px;
 }
-.home__header__nav--menu ul li{
+.home-header-nav-menu ul li{
     background-color: var(--colorGris);
     width: 100%;
     margin-bottom: 2px;
@@ -31,7 +33,7 @@
     text-transform: uppercase;
     padding: 5px;
 }
-.home__header__nav--menu ul li:last-child{
+.home-header-nav-menu ul li:last-child{
     margin-bottom: 0;
 }
 
@@ -39,14 +41,53 @@
 img{
     max-width: 100%;
 }
-.home__main__section--products{
-    margin-top: 30px;
+.home-main{
+    width: 90%;
+    margin: auto;
+}
+.home-main-section-banner{
+    margin: 20px 0px;
+}
+.home-main-section-product{
+    margin: 30px 0px;
+}
+.home-main-section-product-box{
+    position: relative;
+}
+.home-main-img-sticker{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.home-main-section-product-box a{
+    position: absolute;
+    top: 45%;
+    left: 0;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    font-weight: 500;
+    padding: 10px 0px;
+} 
+.home-main-section-product-title{
+    font-size: 1.2rem;
+    margin: 30px 0px;
+}
+.home-main-section-product p{
+    margin: 30px 0px;
+}
+.home-main-section-product-button{
+    background-color: var(--colorGris);
+    padding: 10px;
 }
 
 
 /* FOOTER */
-
-.home__footer__nav--menu ul li{
+.home-footer{
+    width: 90%;
+    margin:auto;
+}
+.home-footer-nav-menu ul li{
     background-color: var(--colorRojo);
     width: 100%;
     margin-bottom: 2px;
@@ -55,6 +96,6 @@ img{
     padding: 5px;
     text-align: center;
 }
-.home__footer__nav--menu ul li:last-child{
+.home-footer-nav-menu ul li:last-child{
     margin-bottom: 0;
 }
