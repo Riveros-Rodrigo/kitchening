@@ -54,6 +54,9 @@ img{
 .home-main-section-product-box{
     position: relative;
 }
+.home-main-img-product{
+    width: 100%;
+}
 .home-main-img-sticker{
     position: absolute;
     top: 0;
