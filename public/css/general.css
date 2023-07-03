@@ -10,7 +10,6 @@
 }
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    max-width: 1180px;
     background-image: url('/img/bg-body.png');
 }
 a{
